@@ -1,5 +1,14 @@
+.site-header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+}
+
 .site-header__top {
-  padding-top: 13px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -39,7 +48,7 @@
   font-weight: 300;
   line-height: 16px;
   text-decoration: none;
-  color: #272727;
+  color: $black;
   transition: opacity 0.2s ease;
   
   &:hover {
@@ -117,10 +126,11 @@
 
 // SITE-HEADER-BOTTOM
 .site-header__bottom {
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding-top: 23px;
+  padding-bottom: 23px;
   padding-right: 18px;
   padding-left: 15px;
+  margin-bottom: -45px;
   background-color: $blue;
   border-radius: 5px;
 }
@@ -163,6 +173,7 @@
   display: flex;
   align-items: center;
   max-width: 200px;
+  vertical-align: middle;
 }
 
 .social-media__item{
@@ -178,9 +189,11 @@
 }
 
 .social-media__item{
-  margin: 6px;;
+ margin-left: 6px;
+ margin-right: 6px;
 }
 
 .social-media__img {
+  vertical-align: middle;
   object-fit: cover;
 }

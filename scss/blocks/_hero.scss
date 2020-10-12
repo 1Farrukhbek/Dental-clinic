@@ -1,0 +1,86 @@
+.hero {
+  padding-top: 315px;
+  padding-bottom: 150px;
+  background-image: url(../../img/hero-smile.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 1920px;
+  background-color: #E3E7E8;
+}
+
+.hero__heading-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero__heading {
+  max-width: 550px;
+  margin: 0;
+  margin-bottom: 27px;
+  font-size: 48px;
+  line-height: 56px;
+  text-transform: uppercase;
+  color: $black;
+}
+
+.hero__text {
+  order: -1;
+  margin: 0;
+  margin-bottom: 10px;
+  color: $black;
+}
+
+.hero__button-link {
+  margin-bottom: 135px;
+}
+
+// ARROWS
+.hero__buttons-wrapper {
+  display: flex;
+}
+
+.arrow__prev {
+  width: 40px;
+  height: 70px;
+  margin-right: 9px;
+  background-color: $yellow;
+  border: none;
+  border-radius: 5px;
+  
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.arrow__prev-img {
+// width: 18px;
+}
+
+.arrow__next {
+  width: 70px;
+  height: 70px;
+  background-color: $yellow;
+  border: none;
+  border-radius: 5px;
+  
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
