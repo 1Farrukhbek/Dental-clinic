@@ -17,6 +17,7 @@
 .site-header__contact {
   display: flex;
   align-items: center;
+  min-width: 195px;
 }
 
 .site-header__contact::before {
@@ -236,6 +237,10 @@
 }
 
 @include breakpoint-down (950px) {
+  // body {
+  //   overflow: hidden;
+  // }
+
   .site-header__bottom {
     position: relative;
   }
@@ -250,7 +255,8 @@
   
   .site-header__bottom-wrapper {
     position: absolute;
-    display: flex;
+    overflow: auto;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
@@ -269,6 +275,7 @@
     text-align: center;
     max-width: 100%;
   }
+
   .sitenav__item {
     border: 1px solid #FFD600;
     margin: 0;
@@ -279,13 +286,11 @@
     padding-top: 24px;
     padding-bottom: 24px;
   }
-  
-  .social-media__list {
-    margin-left: 0;
-  }
 
-  .site-header__social-media {
+   .site-header__social-media {
     margin-top: auto;
+    padding-top: 30px;
+    margin-left: 0;
     margin-bottom: 30px;
   }
 

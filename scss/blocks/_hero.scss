@@ -1,6 +1,6 @@
 .hero {
   padding-top: 315px;
-  padding-bottom: 150px;
+  padding-bottom: 130px;
   background-image: url(../../img/hero-smile.png);
   background-repeat: no-repeat;
   background-position: center center;
@@ -9,13 +9,13 @@
 }
 
 .hero__heading-wrapper {
+  max-width: 550px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
 .hero__heading {
-  max-width: 550px;
   margin: 0;
   margin-bottom: 27px;
   font-size: 48px;
