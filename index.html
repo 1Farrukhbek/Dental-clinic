@@ -34,7 +34,7 @@
         <a class="site-header__logo-min-link" href="index.html">
           <img class="site-header__logo-min-img" src="img/site-logo-small.png" srcset="img/site-logo-small.png 1x, img/site-logo-small@2x.png 2x" alt="Site logo">
         </a>
-
+        
         <button class="site-header__menu-togler">
           <img class="site-header__menu-img" src="img/icon-hamburger.png" alt="Menu" width="25" height="18">
         </button>
@@ -109,7 +109,7 @@
       </div>
     </div>
   </section>
-
+  
   <section class="appointment">
     <h2 class="visually-hidden">Appointment</h2>
     <div class="container appointment__container">
@@ -118,7 +118,7 @@
           <h4 class="appointment__item-heading">Treatment</h4>
           <p class="appointment__item-text">All types of dental treatment are carried out using the most modern technologies.</p>
         </li>
-
+        
         <li class="appointment__item appointment__item-img-2">
           <h4 class="appointment__item-heading">Prosthetics</h4>
           <p class="appointment__item-text">We will help you find the most convenient and aesthetically attractive version of the prosthesis.</p>
@@ -127,18 +127,56 @@
       <div class="appointment__form"></div>
     </div>
   </section>
-
+  
   <section class="services">
     <div class="container services__container">
       <h2 class="services__heading">Services</h2>
       <p class="services__text">We provide a wide range of services from treatment to prosthetics.<br>Therefore, you do not need to go anywhere else.</p>
 
-      <ul class="services__list">
-        <li class="services__item">
-          <h3 class="services__item-heading">Dental treatment</h3>
+      <div class="services__list-wrapper">
+        <div class="services_arrows">
+          <button class="services_arrow-btn services_arrow-prev" aria-label="Previous">
+            <img class="services_arrow-prev-img" src="img/icon-arrows.png" srcset="img/icon-arrows.png 1x, img/icon-arrows@2x.png 2x">
+          </button>
           
-        </li>
-      </ul>
+          <button class="services_arrow-btn services_arrow-next" aria-label="Next">
+            <img class="services_arrow-next-img" src="img/icon-arrows.png" srcset="img/icon-arrows.png 1x, img/icon-arrows@2x.png 2x">
+          </button>
+        </div>
+
+        <ul class="services__list">
+          <li class="services__item services__item-img-1">
+            <h3 class="services__item-heading">Dental <br>treatment</h3>
+            <s class="services__item-old-price">5000₽</s>
+            <p class="services__item-new-price">3100₽</p>
+          </li>
+          
+          <li class="services__item services__item-img-2">
+            <h3 class="services__item-heading">Hygiene</h3>
+            <s class="services__item-old-price">6000₽</s>
+            <p class="services__item-new-price">4600₽</p>
+          </li>
+          
+          <li class="services__item services__item-img-3">
+            <h3 class="services__item-heading">Diagnostics</h3>
+            <s class="services__item-old-price">1000₽</s>
+            <p class="services__item-new-price">FREE</p>
+          </li>
+          
+          <li class="services__item services__item-img-4">
+            <h3 class="services__item-heading">Children’s dentistry</h3>
+            <s class="services__item-old-price">5000₽</s>
+            <p class="services__item-new-price">3100₽</p>
+          </li>
+          
+          <li class="services__item services__item-img-5">
+            <h3 class="services__item-heading">Dental</h3>
+            <s class="services__item-old-price">5000₽</s>
+            <p class="services__item-new-price">3100₽</p>
+          </li>
+        </ul>
+      </div>
+      
     </div>
   </section>
   
