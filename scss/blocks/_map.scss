@@ -1,6 +1,5 @@
 .map {
   padding-top: 80px;
-  padding-bottom: 65px;
 }
 
 .map__container {
@@ -80,24 +79,4 @@
     margin-bottom: 83px;
     width: 100%;
   }
-}
-
-@include breakpoint-down (860px) {
-
-}
-
-@include breakpoint-down (980px) {
-
-}
-
-@include breakpoint-down (860px) {
-
-}
-
-@include breakpoint-down (780px) {
-
-}
-
-@include breakpoint-down (560px) {
-
 }
