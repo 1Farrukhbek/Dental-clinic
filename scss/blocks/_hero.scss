@@ -168,10 +168,10 @@
 
 @include breakpoint-down (560px) {
   .hero_container {
-    padding-top: 460px;
+    padding-top: 600px;
     padding-bottom: 100px;
     background-image: url(../img/hero-smile-860px.jpg);
-    background-size: contain;
+    background-size: cover;
   }
 
   .hero__buttons {

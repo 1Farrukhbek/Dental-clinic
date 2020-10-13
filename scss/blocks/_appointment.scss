@@ -55,13 +55,83 @@
   font-weight: 300;
 }
 
-.appointment__form {
+.appointment__form-list {
   width: 540px;
-  min-height: 360px;
   margin-top: -60px;
+  padding: 23px 32px 18px;
   background-color: $blue;
   border-radius: 5px;
+  z-index: 1;
 }
+
+.appointment__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment__form-input {
+  display: block;
+  background-color: #0055B8;
+  font-size: 15px;
+  padding: 20px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  
+  &:focus {
+    outline: none;
+    background-color: #fff;
+    color: $black;
+  }
+}
+
+.appointment__form-input::placeholder {
+ color: white;
+
+ &:focus {
+ color: black;
+}
+}
+
+.appointment__form-heading {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+  color: white;
+  margin: 0;
+  margin-bottom: 29px;
+}
+
+.appointment__box-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+.appointment__box-text {
+  max-width: 270px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.appointment__box-label {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  flex-shrink: 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 80%;
+}
+
+.appointment__box-check:checked ~ .appointment__box-label {
+  background-image: url(../img/tick.png);
+}
+
 
 @include breakpoint-down (1024px) {
   .appointment__container {
@@ -73,8 +143,8 @@
   .appointment__list {
     display: none;
   }
-
-  .appointment__form {
+  
+  .appointment__form-list {
     margin-top: 0;
     width: 100%;
   }

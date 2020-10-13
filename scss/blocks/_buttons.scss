@@ -46,3 +46,31 @@
     opacity: 0.6;
   }
 }
+
+.button-yellow  {
+  display: block;
+  align-self: flex-start;
+  max-width: 400px;
+  padding: 17px 63px;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: $yellow;
+  color: $black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  transition: opacity 0.2s ease;
+
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
