@@ -168,7 +168,7 @@
 
 @include breakpoint-down (560px) {
   .hero_container {
-    padding-top: 450px;
+    padding-top: 460px;
     padding-bottom: 100px;
     background-image: url(../img/hero-smile-860px.jpg);
     background-size: contain;
@@ -176,7 +176,7 @@
 
   .hero__buttons {
     position: absolute;
-    transform: translate(-120px, 80px);
+    transform: translate(-120px, 60px);
   }
   
   .hero__heading {
