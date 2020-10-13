@@ -21,6 +21,7 @@
 .advantages__heading {
   margin: 0;
   display: flex;
+  max-width: 400px;
   flex-direction: column;
   margin-bottom: 13px;
   font-weight: 500;
@@ -170,8 +171,4 @@
   .advantages__item-text {
     display: none;
   }
-}
-
-@include breakpoint-down (375px) {
-  
 }
