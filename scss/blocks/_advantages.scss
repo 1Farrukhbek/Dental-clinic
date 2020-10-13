@@ -19,6 +19,7 @@
 }
 
 .advantages__heading {
+  position: relative;
   margin: 0;
   display: flex;
   max-width: 400px;
@@ -35,6 +36,18 @@
   margin-bottom: 16px;
   border: 2px solid $yellow;
   background-color: $yellow;
+  content: "";
+}
+
+.advantages__heading::after{
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 

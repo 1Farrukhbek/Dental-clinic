@@ -1319,6 +1319,7 @@ img {
 }
 
 .services__heading {
+  position: relative;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1342,6 +1343,18 @@ img {
   margin-bottom: 16px;
   border: 2px solid #FFD600;
   background-color: #FFD600;
+  content: "";
+}
+
+.services__heading::after {
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 
@@ -1592,6 +1605,7 @@ img {
 }
 
 .advantages__heading {
+  position: relative;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1613,6 +1627,18 @@ img {
   margin-bottom: 16px;
   border: 2px solid #FFD600;
   background-color: #FFD600;
+  content: "";
+}
+
+.advantages__heading::after {
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 
@@ -1780,6 +1806,7 @@ img {
 }
 
 .team__heading {
+  position: relative;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1803,6 +1830,18 @@ img {
   margin-bottom: 16px;
   border: 2px solid #FFD600;
   background-color: #FFD600;
+  content: "";
+}
+
+.team__heading::after {
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 
@@ -2006,6 +2045,7 @@ img {
 }
 
 .quality__heading {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2029,6 +2069,18 @@ img {
   margin-bottom: 16px;
   border: 2px solid #FFD600;
   background-color: #FFD600;
+  content: "";
+}
+
+.quality__heading::after {
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 
@@ -2150,6 +2202,7 @@ img {
 }
 
 .reviews__heading {
+  position: relative;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2174,6 +2227,18 @@ img {
   margin-bottom: 16px;
   border: 2px solid #FFD600;
   background-color: #FFD600;
+  content: "";
+}
+
+.reviews__heading::after {
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 
@@ -2276,6 +2341,7 @@ img {
 }
 
 .map__heading {
+  position: relative;
   margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2300,6 +2366,18 @@ img {
   margin-bottom: 16px;
   border: 2px solid #FFD600;
   background-color: #FFD600;
+  content: "";
+}
+
+.map__heading::after {
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 

@@ -16,6 +16,7 @@
 }
 
 .quality__heading {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -32,6 +33,18 @@
   margin-bottom: 16px;
   border: 2px solid $yellow;
   background-color: $yellow;
+  content: "";
+}
+
+.quality__heading::after{
+  position: absolute;
+  display: inline-block;
+  width: 275px;
+  height: 152px;
+  background-image: url(../img/bg_logo.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
   content: "";
 }
 
