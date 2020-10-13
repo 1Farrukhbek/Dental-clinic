@@ -1451,4 +1451,228 @@ img {
     display: none;
   }
 }
+
+.team {
+  padding-top: 80px;
+  padding-bottom: 65px;
+}
+
+.team__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.team__heading {
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.team__heading::before {
+  width: 50px;
+  height: 0px;
+  margin-bottom: 16px;
+  border: 2px solid #FFD600;
+  background-color: #FFD600;
+  content: "";
+}
+
+.team__text {
+  margin: 0;
+  margin-bottom: 40px;
+}
+
+.team__list-wrapper {
+  position: relative;
+}
+
+.team__list {
+  max-width: 1000px;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin-left: -17px;
+  margin-right: -17px;
+}
+
+.team__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  min-width: 300px;
+  margin-left: 26px;
+  margin-right: 26px;
+}
+
+.team__item:first-of-type {
+  margin-left: 0;
+}
+
+.team__item::before {
+  display: block;
+  width: 300px;
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  content: "";
+}
+
+.team__item-img-1::before {
+  background-image: url("../img/team-anna.jpg");
+}
+
+.team__item-img-2::before {
+  background-image: url("../img/team-ivan.jpg");
+}
+
+.team__item-img-3::before {
+  background-image: url("../img/team-larisa.jpg");
+}
+
+.team__item-img-4::before {
+  background-image: url("../img/team-anna.jpg");
+}
+
+.team__item-heading {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: 500;
+  line-height: 21px;
+}
+
+.team__item-text {
+  margin: 0;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.team_arrow-btn {
+  position: absolute;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 42px;
+  height: 49px;
+  top: 50%;
+  border: 2px solid #1D6ECB;
+  border-radius: 5px;
+  -webkit-transition: opacity 0.2s ease;
+  transition: opacity 0.2s ease;
+}
+
+.team_arrow-btn:hover {
+  opacity: 0.8;
+}
+
+.team_arrow-btn:active {
+  opacity: 0.6;
+}
+
+.team_arrow-btn:focus {
+  outline: none;
+}
+
+.team_arrow-prev {
+  left: 0;
+  -webkit-transform: translate(-75px, -50%);
+          transform: translate(-75px, -50%);
+}
+
+.team_arrow-prev-img {
+  width: 12px;
+  height: 19px;
+  vertical-align: middle;
+}
+
+.team_arrow-next {
+  right: 0;
+  -webkit-transform: translate(75px, -50%);
+          transform: translate(75px, -50%);
+}
+
+.team_arrow-next-img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 12px;
+  height: 19px;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 1024px) {
+  .team__list {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .team__list {
+    max-width: 650px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .team__list {
+    max-width: 550px;
+    overflow: auto;
+  }
+  .team_arrows {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .team__list {
+    max-width: 375px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .team__list {
+    max-width: 300px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
