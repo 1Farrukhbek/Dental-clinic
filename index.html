@@ -30,13 +30,14 @@
         </div>
       </div>
       
-      <div class="site-header__bottom">
+      <div class="site-header__bottom site-header__bottom--active">
         <a class="site-header__logo-min-link" href="index.html">
           <img class="site-header__logo-min-img" src="img/site-logo-small.png" srcset="img/site-logo-small.png 1x, img/site-logo-small@2x.png 2x" alt="Site logo">
         </a>
         
         <button class="site-header__menu-togler">
-          <img class="site-header__menu-img" src="img/icon-hamburger.png" alt="Menu" width="25" height="18">
+          <img class="site-header__menu-img" src="img/icon-hamburger.png" srcset="" alt="Menu" width="25" height="18">
+          <img class="site-header__menu-img-cross" src="img/icon-cross.png" srcset="img/icon-cross.png 1x, img/icon-cross@2x.png 2x" alt="Menu" width="25" height="18">
         </button>
         
         <div class="site-header__bottom-wrapper">
@@ -285,9 +286,8 @@
 
     </div>
   </section>
-
             
- <section class="reviews">
+  <section class="reviews">
   <div class="container reviews__container">
     <h2 class="reviews__heading">Reviews from our patients</h2>
     <p class="reviews__text">Here are the latest reviews from our regular customers. <br>You can also leave your review by clicking on the link below</p>
@@ -298,12 +298,12 @@
           <p class="reviews__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
         </li>
         
-        <li class="reviews__item reviews__item-img-2">
+        <li class="reviews__item reviews__item--active reviews__item-img-2">
           <h3 class="reviews__item-heading">Ivan Ivanov</h3>
           <p class="reviews__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
         </li>
         
-        <li class="reviews__item reviews__item-img-3">
+        <li class="reviews__item reviews__item--active reviews__item-img-3">
           <h3 class="reviews__item-heading">Ivan Ivanov</h3>
           <p class="reviews__item-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
         </li>
@@ -312,7 +312,33 @@
     <a class="button-blue reviews__link" href="#">Give feedback</a>
  
   </div>
-</section>
+  </section>
+            
+  <section class="map">
+    <div class="container container--big map__container">
+      <h2 class="map__heading">Convenient location and working hours</h2>
+      <p class="map__text">Our clinic is located in the center of the Sverdlovsk district, at the address: Raboche-Krestyanskaya Street 6. <br>From the bus stop “Family” hypermarket to our dental clinic - 5 minutes on foot.</p>
+   
+      <div class="map__location">
+        <a class="map__link" href="#" aria-label="Location">
+          <picture class="map__picture">
+            <source media="(max-width:1024px)" type="image/avif" srcset="img/map-1024px.avif 1x, img/map-1024px@2x.avif 2x">
+
+            <source media="(max-width:1024px)" type="image/webp" srcset="img/map-1024px.webp 1x, img/map-1024px@2x.webp 2x">
+          
+            <source media="(max-width:1024px)" srcset="img/map-1024px.jpg 1x, img/map-1024px@2x.jpg 2x">
+                
+            <source type="image/avif" srcset="img/map.avif 1x, img/map@2x.avif 2x">
+                  
+            <source type="image/webp" srcset="img/map.webp 1x, img/map@2x.webp 2x">
+                    
+            <img class="map__img" src="img/map.jpg" srcset="img/map.jpg 1x, img/map@2x.jpg 2x" alt="Map">
+          </picture>
+        </a>
+      </div>
+    </div>
+  </section>
+
           
   <script src="js/main.js"></script>
 </body>

@@ -52,8 +52,6 @@
   padding-bottom: 30px;
 }
 
-
-
 .reviews__item::before {
   display: block;
   width: 100%;
@@ -76,7 +74,6 @@
   background-image: url("../img/reviews-yellow.jpg");
 }
 
-
 .reviews__item-heading {
   margin-top: 20px;
   margin-bottom: 13px;
@@ -95,31 +92,14 @@
   line-height: 21px;
 }
 
-
-
 @include breakpoint-down (1160px){
   .reviews__item {
     width: 300px;
-  
   }
 }
 
-@include breakpoint-down (1024px){
-  
-}
-
-@include breakpoint-down (950px){
-  
-}
-
-@include breakpoint-down (768px){
-  
-}
-
-@include breakpoint-down (560px){
-  
-}
-
-@include breakpoint-down (375px){
-  
+@include breakpoint-down (690px){
+  .reviews__item--active {
+    display: none;
+  }
 }
