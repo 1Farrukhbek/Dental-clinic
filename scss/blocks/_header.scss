@@ -162,7 +162,7 @@
   &:hover {
     opacity: 0.8;
   }
-  
+
   &:active {
     opacity: 0.6;
   }
@@ -171,6 +171,11 @@
 .sitenav__link {
   text-decoration: none;
   color: white;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $yellow;
+  }
 }
 
 // SOCIAL-MEDIA
