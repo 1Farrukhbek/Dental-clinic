@@ -1156,11 +1156,20 @@ img {
 }
 
 .appointment__item-img-1::before {
-  background-image: url(../../img/icon-treatment.png);
+  background-image: url(../img/icon-treatment.png);
 }
 
 .appointment__item-img-2::before {
-  background-image: url(../../img/icon-prosthetics.png);
+  background-image: url(../img/icon-prosthetics.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .appointment__item-img-1::before {
+    background-image: url(../img/icon-treatment@2x.png);
+  }
+  .appointment__item-img-2::before {
+    background-image: url(../img/icon-prosthetics@2x.png);
+  }
 }
 
 .appointment__item-heading {
@@ -1439,6 +1448,22 @@ img {
 .services__item-img-4::before,
 .services__item-img-5::before {
   background-image: url("../img/icon-child-dentistry.png");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .services__item-img-1::before {
+    background-image: url("../img/icon-treatment-blue@2x.png");
+  }
+  .services__item-img-2::before {
+    background-image: url("../img/icon-hygiene@2x.png");
+  }
+  .services__item-img-3::before {
+    background-image: url("../img/icon-diagnostics@2x.png");
+  }
+  .services__item-img-4::before,
+  .services__item-img-5::before {
+    background-image: url("../img/icon-child-dentistry@2x.png");
+  }
 }
 
 .services__item-heading {
@@ -1787,6 +1812,18 @@ img {
   }
 }
 
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .advantages__item-img-1::before {
+    background-image: url("../img/icon-expert@2x.png");
+  }
+  .advantages__item-img-2::before {
+    background-image: url("../img/icon-treatment-blue@2x.png");
+  }
+  .advantages__item-img-3::before {
+    background-image: url("../img/icon-location@2x.png");
+  }
+}
+
 .team {
   padding-top: 80px;
   padding-bottom: 65px;
@@ -1917,6 +1954,21 @@ img {
 
 .team__item-img-4::before {
   background-image: url("../img/team-anna.jpg");
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .team__item-img-1::before {
+    background-image: url("../img/team-anna@2x.jpg");
+  }
+  .team__item-img-2::before {
+    background-image: url("../img/team-ivan@2x.jpg");
+  }
+  .team__item-img-3::before {
+    background-image: url("../img/team-larisa@2x.jpg");
+  }
+  .team__item-img-4::before {
+    background-image: url("../img/team-anna@2x.jpg");
+  }
 }
 
 .team__item-heading {
@@ -2319,6 +2371,18 @@ img {
 @media only screen and (max-width: 690px) {
   .reviews__item--active {
     display: none;
+  }
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .reviews__item-img-1::before {
+    background-image: url("../img/reviews-yellow@2x.jpg");
+  }
+  .reviews__item-img-2::before {
+    background-image: url("../img/reviews-blue@2x.jpg");
+  }
+  .reviews__item-img-3::before {
+    background-image: url("../img/reviews-yellow@2x.jpg");
   }
 }
 

@@ -102,6 +102,31 @@
   background-image: url("../img/team-anna.jpg");
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  .team__item-img-1::before {
+    background-image: url("../img/team-anna@2x.jpg");
+  }
+  
+  .team__item-img-2::before {
+    background-image: url("../img/team-ivan@2x.jpg");
+  }
+  
+  .team__item-img-3::before {
+    background-image: url("../img/team-larisa@2x.jpg");
+  }
+  
+  .team__item-img-4::before {
+    background-image: url("../img/team-anna@2x.jpg");
+  }
+}
+
 .team__item-heading {
   margin-top: 15px;
   margin-bottom: 5px;

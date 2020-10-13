@@ -40,11 +40,27 @@
 }
 
 .appointment__item-img-1::before{
-  background-image: url(../../img/icon-treatment.png);
+  background-image: url(../img/icon-treatment.png);
 }
 
 .appointment__item-img-2::before{
-  background-image: url(../../img/icon-prosthetics.png);
+  background-image: url(../img/icon-prosthetics.png);
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .appointment__item-img-1::before{
+    background-image: url(../img/icon-treatment@2x.png);
+  }
+  
+  .appointment__item-img-2::before{
+    background-image: url(../img/icon-prosthetics@2x.png);
+  }
 }
 
 .appointment__item-heading {

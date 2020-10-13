@@ -116,3 +116,23 @@
     display: none;
   }
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  .reviews__item-img-1::before {
+    background-image: url("../img/reviews-yellow@2x.jpg");
+  }
+  
+  .reviews__item-img-2::before {
+    background-image: url("../img/reviews-blue@2x.jpg");
+  }
+  
+  .reviews__item-img-3::before {
+    background-image: url("../img/reviews-yellow@2x.jpg");
+  }
+}

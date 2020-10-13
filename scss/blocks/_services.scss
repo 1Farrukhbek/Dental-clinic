@@ -112,6 +112,32 @@
   background-image: url("../img/icon-child-dentistry.png");
 }
 
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+
+  .services__item-img-1::before {
+    background-image: url("../img/icon-treatment-blue@2x.png");
+  }
+  
+  .services__item-img-2::before {
+    background-image: url("../img/icon-hygiene@2x.png");
+  }
+  
+  .services__item-img-3::before {
+    background-image: url("../img/icon-diagnostics@2x.png");
+  }
+  
+  .services__item-img-4::before,
+  .services__item-img-5::before {
+    background-image: url("../img/icon-child-dentistry@2x.png");
+  }
+}
+
 .services__item-heading {
   padding-top: 14px;
   margin: 0;

@@ -185,3 +185,24 @@
     display: none;
   }
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) {
+  
+.advantages__item-img-1::before {
+  background-image: url("../img/icon-expert@2x.png");
+}
+
+.advantages__item-img-2::before {
+  background-image: url("../img/icon-treatment-blue@2x.png");
+}
+
+.advantages__item-img-3::before {
+  background-image: url("../img/icon-location@2x.png");
+}
+}
